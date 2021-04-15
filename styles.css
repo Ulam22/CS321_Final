@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 body {
-  font: 76% trebuchet, sans-serif;
+  font: 1rem trebuchet, sans-serif;
   color: #181d27;
 }
 p {
@@ -27,6 +27,7 @@ div#header h1 {
 }
 div#content p {
   line-height: 1.4;
+  
 }
 div#navigation {
   background: #3a7d44;
@@ -60,6 +61,7 @@ div#wrapper {
 }
 div#content {
   margin-left: 200px;
+  padding: 1rem;
 }
 div#navigation {
   float: right;
