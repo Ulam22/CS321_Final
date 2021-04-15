@@ -1,2 +1,2 @@
 # CS321_Final
-Turtle website
+A fan page for Turtle lovers everywhere
