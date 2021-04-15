@@ -1,16 +1,16 @@
 html,body{margin:0;padding:0}
-body{font: 76% arial,sans-serif; color: #181D27}
+body{font: 76% trebuchet,sans-serif; color: #181D27}
 p{margin:0 10px 10px}
 a{padding:5px; text-decoration:none; color:#D0DB97;}
-div#header{background-color:#254D32;}
+div#header{background-color:#254D32; font: trebuchet,sans-serif}
 div#header h1{height:80px;line-height:80px;margin:0;padding-left:10px;}
 div#content p{line-height:1.4}
-div#navigation{background:#3A7D44;}
+div#navigation{background:#3A7D44; font: trebuchet,sans-serif}
 div#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
 div#navigation li{margin-bottom:5px;}
-div#extra{background:#69B578;}
-div#footer{background:#254D32;}
-div#footer p{margin:0;padding:5px 10px}
+div#extra{background:#69B578; font: trebuchet,sans-serif}
+div#footer{background:#254D32; font: trebuchet,sans-serif}
+div#footer p{margin:0;padding:5px 10px; font: trebuchet,sans-serif}
 div#wrapper{float:left;width:100%;margin-left:-200px}
 div#content{margin-left:200px}
 div#navigation{float:right;width:200px}
