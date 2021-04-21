@@ -1,0 +1,36 @@
+.accordion {
+    width: 35em;
+    margin-bottom:1.3rem;
+    
+}
+.clickable {
+    display:inline-block;
+    width:100%;
+  background-color: #d0db97;
+  border-radius:8px;
+/*  border-radius: 8px 8px 0 0;*/
+  padding: 15px;
+}
+#acc-toggle {
+  float: right;
+}
+
+#acc-toggle::before {
+content: "\002B";
+}
+    #acc-toggle:focus::after {
+    content: "\2212"; /* Unicode character for "minus" sign (-) */
+  }
+
+.clickable h4{
+    display: inline-block;
+    margin:0;
+}
+
+.accordion-content {
+  display: none;
+  background-color: #d0db97;
+  border-radius:0 0 8px 8px;
+  padding-bottom: 5px;
+  width:35em;
+}
