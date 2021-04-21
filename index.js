@@ -1,3 +1,4 @@
 function display(e) { 
-this.$(".accordion-content").toggle();
+  var content = this.getElementsByClassName("accordion-content");
+$(".accordion-content").toggle();
 }
