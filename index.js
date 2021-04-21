@@ -1,4 +1,7 @@
-function display(e) { 
-  var content = this.getElementsByClassName("accordion-content");
-$(".accordion-content").toggle();
-}
+const accordionHeaders = document.querySelectorAll(".accordion-item-header");
+accordionHeaders.forEach(accordionHeaders => {
+    accordionHeaders.addEventListener("click", e =>
+    {
+accordionHeaders.classList.toggle("active");
+    })
+});
