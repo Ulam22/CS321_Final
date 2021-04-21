@@ -3,7 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+section {
+    margin-bottom: 4rem;
+}
+#intro {
+    width:60%;
+    margin: auto;
+}
 
+/* ----------- PAGE STYLING: POTENTIAL MERGE ERROR -------------- */
+#footer {
+    color: #fdfbf5;
+    text-align: center;
+}
+/* ----------- ACCORDION -------- */
 .accordion {
   width: 90%;
   max-width: 900px;
@@ -38,7 +51,7 @@
 
 .accordion-content {
   display: none;
-  padding: 0 0.3rem 0.5rem;
+  padding: 0.3rem 0.5rem;
 }
 
 .accordion h4 {
@@ -46,17 +59,26 @@
 }
 
 .accordion-item-header.active + .accordion-content {
-  display: block;
-}
+    display: block;
+  }
 
 h2 {
     text-align: center;
     margin:2rem 0;
 }
 
+.accordion-item-header:hover {
+    background-color: #254d32;
+    color: #fdfbf5;
+    border-radius: 8px;
+}
+
+.accordion-item-header.active:hover {
+  border-radius: 8px 8px 0 0;
+}
 /* --------- CARD STYLING START ----------- */
 
-.card-wrapper {
+.horizontal-wrapper {
     /*display: grid;
     grid-template-columns: 1fr 2fr;*/
     display: flex;
