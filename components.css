@@ -26,6 +26,9 @@ section {
   font-style: italic;
   color: gray;
 }
+#header {
+  letter-spacing: .1rem;
+}
 /* ----------- PAGE STYLING: POTENTIAL MERGE ERROR -------------- */
 #footer {
     color: #fdfbf5;
