@@ -11,6 +11,11 @@ section {
     margin: auto;
 }
 
+#interactive img {
+  width:65vw;
+  height:50vh;
+}
+
 /* ----------- PAGE STYLING: POTENTIAL MERGE ERROR -------------- */
 #footer {
     color: #fdfbf5;
@@ -76,7 +81,7 @@ h2 {
 .accordion-item-header.active:hover {
   border-radius: 8px 8px 0 0;
 }
-/* --------- CARD STYLING START ----------- */
+/* --------- CARD STYLING ----------- */
 
 .horizontal-wrapper {
     /*display: grid;
@@ -127,4 +132,9 @@ h2 {
   
   .horizontal-scroll::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+
+  /* --------- Video ------------ */
+  iframe {
+      margin:.5rem;
   }
