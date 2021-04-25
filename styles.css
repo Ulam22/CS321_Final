@@ -29,6 +29,9 @@ div#header h1 {
   line-height: 80px;
   margin: 0;
   padding-left: 10px;
+  
+}
+#header h1 a{
   color: #69b578;
 }
 div#content p {
