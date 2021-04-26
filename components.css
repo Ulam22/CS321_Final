@@ -60,17 +60,27 @@ section {
 #navigation li a:hover::before {
   content: "\2794";
 }
-
-#save-turtles {
-  display: none;
-  margin: auto;
+#extra li a:hover::before {
+  content: "\2794";
+}
+#extra li{
+list-style: none;
+line-height: 1.5rem;
 }
 
-#sidebar {
-  --offset: var(--space);
-  /* ... */
-  position: sticky;
-  top: var(--offset);
+#navigation {
+  transform: translateY(50%);
+}
+#extra {
+  transform: translateY(70%);
+  line-height: 1.3rem;
+}
+.navbar-nav {
+  display: none;
+}
+
+.navbar-brand {
+  color: white !important;
 }
 /* ----------- ACCORDION -------- */
 .accordion {
@@ -140,7 +150,7 @@ h2 {
   display: flex;
   flex-direction: row;
 }
-.card {
+.cards {
   background-color: #fdfbf5;
   padding: 1rem 0.8rem;
   border-radius: 4px;
@@ -151,11 +161,11 @@ h2 {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0, 0.2);
   filter: drop-shadow(0 0 0.35rem rgba(67, 87, 65, 0.199));
 }
-.card-body {
+.cards-body {
   text-align: center;
 }
 
-.card-body img {
+.cards-body img {
   max-width: 100%;
 }
 
@@ -217,6 +227,3 @@ iframe {
   grid-area: 2 / 2 /  2 /  3;
 }
 
-.navbar-nav {
-  display: none;
-}
