@@ -7,13 +7,10 @@
     display: unset;
   }
 
-  #navigation {
+  #sidebar {
     display: none;
   }
 
-  #extra {
-    display: none;
-  }
   .mobile-cards {
     display: unset;
   }
