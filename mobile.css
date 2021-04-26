@@ -1,0 +1,40 @@
+/* ---------- MEDIA QUERIES ------------*/
+@media only screen and ( max-width: 450px) {
+    body {
+      font-size: 1.2rem;
+      display: flex;
+    }
+  
+    #intro {
+      width:100vw;
+    }
+    #container {
+      display: flex;
+    flex-direction: column;
+    }
+    #save-turtles {
+      display: unset;
+    }
+    #interactive {
+      display: none;
+    }
+    #interactive img {
+      display: none;
+    }
+    #sidebar {
+      display: none;
+    }
+    #bubbles {
+      display: none;
+    }
+    .mobile-cards {
+      display: unset;
+    }
+    .horizontal-scroll {
+      display: none;
+    }
+   
+   
+   
+  }
+  
