@@ -54,15 +54,15 @@ section {
   text-align: center;
 }
 
-#navigation {
+/*#navigation {
   position: absolute;
-  transform: translateY(50%); /*bottom: 50%; For browsers don't support translate3d. */
+  transform: translateY(50%); 
   right: 0;
 }
 #navigation li a:hover::before {
   content: "\2794";
 }
-
+*/
 #extra {
   position: absolute;
   bottom: 25%;
@@ -198,20 +198,22 @@ iframe {
 /* ----------- GRID SETUP ------------- */
 body {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-gap: 3px;
 }
 #header {
   grid-area: 1 / 1 / span 1 / span 3;
 }
 #content{
-  grid-area: 2 / 1 / span 2 / span 3;
+  grid-area: 2 / 1 / span 2 / span 2;
 }
 #footer {
   grid-area: 4 / 1 / span 1 / span 3;
 }
-
+#extra {
+  grid-area: 3 / 1 / span 1 / span 1; 
+}
 #navigation {
   grid-area: 2 / 4 / span 1 / span 3;
 }
