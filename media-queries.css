@@ -1,17 +1,20 @@
-@media screen and (max-width: 450px) {
-   body {
-     display: grid;
-    grid-template-columns: 1fr;  
-   } 
-   #save-turtles {
-      display: unset;
-   }
+@media (min-width: 300px) and (max-width: 400px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #save-turtles {
+    display: unset;
+  }
 
-   #navigation {
-      display:none;
-   }
+  #navigation {
+    display: none;
+  }
 
-   #extra {
-      display:none;
-   }
+  #extra {
+    display: none;
+  }
+  .mobile-cards {
+    display: unset;
+  }
 }
