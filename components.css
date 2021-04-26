@@ -211,3 +211,46 @@ iframe {
 #sidebar {
   grid-area: 2 / 2 /  2 /  3;
 }
+
+/* ---------- MEDIA QUERIES ------------*/
+@media (max-width: 450px) {
+  body {
+    font-size: 1.6rem;
+    max-width: 100vw;
+  }
+  #container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+  }
+  #save-turtles {
+    display: unset;
+  }
+  #interactive {
+    display: none;
+  }
+  #sidebar {
+    display: none;
+  }
+  #bubbles {
+    display: none;
+  }
+  .mobile-cards {
+    display: unset;
+  }
+  .horizontal-scroll {
+    display: none;
+  }
+ 
+  #header {
+   grid-area: 1 / 1 /  1  / 1;
+ }
+ #wrapper{
+   grid-area: 1 / 1 /  2 /  1;
+ }
+ #footer {
+   grid-area: 3 / 1 /  3 /  1;
+ }
+ 
+ 
+}

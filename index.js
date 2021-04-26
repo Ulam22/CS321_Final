@@ -6,12 +6,8 @@ accordionHeaders.classList.toggle("active");
     })
 });
 
-var sidebar = document.querySelector('.sidebar');
-var content = document.querySelector('.content');
+var sidebar = document.querySelector("#sidebar");
 
-var floatSidebar = FloatSidebar({
-    sidebar: sidebar,
-    relative: content,
-    topSpacing: 40,
-    bottomSpacing: 40
-});
+$(document).scroll( (e) => {
+sidebar.css("")
+})
