@@ -1,10 +1,11 @@
 /* ---------- MEDIA QUERIES ------------*/
 @media ( max-width: 450px) {
     body {
-      font-size: 1.2rem;
       display: flex;
     }
-  
+    .navbar {
+      background-color: #3a7d44 !important;
+  }
     #intro {
       width:100vw;
     }
@@ -27,12 +28,22 @@
     #bubbles {
       display: none;
     }
+    #bubbles img {
+        display: none;
+      }
     .mobile-cards {
       display: unset;
     }
     .horizontal-scroll {
       display: none;
     }
-   
+   .navbar-nav {
+       display: unset;
+   }
+   .navbar-nav a {
+       color: white;
+       font-size: 1.4rem;
+       font-weight: 500;
+line-height: 2.6rem;
+   }
   }
-  

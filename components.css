@@ -216,3 +216,7 @@ iframe {
 #sidebar {
   grid-area: 2 / 2 /  2 /  3;
 }
+
+.navbar-nav {
+  display: none;
+}
