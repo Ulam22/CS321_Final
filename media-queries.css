@@ -1,6 +1,17 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
    body {
      display: grid;
     grid-template-columns: 1fr;  
    } 
+   #save-turtles {
+      display: unset;
+   }
+
+   #navigation {
+      display:none;
+   }
+
+   #extra {
+      display:none;
+   }
 }
