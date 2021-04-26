@@ -57,29 +57,3 @@ div#extra {
 div#footer {
   background: #254d32;
 }
-div#footer p {
-  margin: 0;
-  padding: 5px 10px;
-}
-div#wrapper {
-  float: left;
-  width: 100%;
-  margin-left: -200px;
-}
-div#content {
-  margin-left: 200px;
-  padding: 1rem;
-}
-div#navigation {
-  float: right;
-  width: 200px;
-}
-div#extra {
-  float: right;
-  clear: right;
-  width: 200px;
-}
-div#footer {
-  clear: both;
-  width: 100%;
-}
