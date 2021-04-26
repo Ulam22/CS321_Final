@@ -61,11 +61,16 @@ section {
   content: "\2794";
 }
 
-
-
 #save-turtles {
   display: none;
   margin: auto;
+}
+
+#sidebar {
+  --offset: var(--space);
+  /* ... */
+  position: sticky;
+  top: var(--offset);
 }
 /* ----------- ACCORDION -------- */
 .accordion {
