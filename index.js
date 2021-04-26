@@ -6,5 +6,14 @@ accordionHeaders.classList.toggle("active");
     })
 });
 
-//var sidebar = document.querySelector("#sidebar");$(document).scroll( (e) => { sidebar.css("")})
+window.addEventListener('scroll', () =>
+{
+    var nav = document.querySelector("#navigation");
+
+   nav.css("transform", "translateY(50%)");
+
+} 
+});
+
+
 
