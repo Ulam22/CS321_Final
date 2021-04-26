@@ -48,6 +48,7 @@ section {
 }
 #header {
   letter-spacing: 0.05rem;
+ 
 }
 
 #intro {
@@ -67,7 +68,9 @@ section {
 list-style: none;
 line-height: 1.5rem;
 }
-
+#extra p {
+  font-size: 1rem;
+}
 #navigation {
   transform: translateY(50%);
 }
@@ -77,10 +80,6 @@ line-height: 1.5rem;
 }
 .navbar-nav {
   display: none;
-}
-
-.navbar-brand {
-  color: white !important;
 }
 /* ----------- ACCORDION -------- */
 .accordion {
@@ -152,7 +151,7 @@ h2 {
 }
 .cards {
   background-color: #fdfbf5;
-  padding: 1rem 0.8rem;
+  padding: .9rem 0.8rem;
   border-radius: 4px;
   margin: 1rem;
   max-width: 25rem;
@@ -167,6 +166,10 @@ h2 {
 
 .cards-body img {
   max-width: 100%;
+}
+
+.cards-body h4 {
+  padding-top: 1rem;
 }
 
 /* ----------- CUSTOM SCROLLER ------------- */

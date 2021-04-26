@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font: 1rem trebuchet, sans-serif !important; 
   /*cursor: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/turtle_1f422.png"), auto;*/
 }
 body {
@@ -12,9 +11,11 @@ body {
 }
 p {
   margin: 0 10px 10px;
+  font-size:1.2rem;
+  font-weight: 300;
 }
 p, h1, h2, h3, h4, a {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
 }
 a {
   padding: 5px;
@@ -26,12 +27,13 @@ a:hover {
 }
 
 .bg-light {
-background-color: #3a7d44 !important;
+background-color: #254d32 !important;
   
 }
 .navbar-light h1 {
   color: #69b578!important;
   font-weight: bold;
+  font-size: 2em;
 }
 div#content p {
   line-height: 1.4;

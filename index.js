@@ -12,7 +12,7 @@ window.addEventListener('scroll', () =>
 
    nav.css("transform", "translateY(50%)");
 
-} 
+
 });
 
 
