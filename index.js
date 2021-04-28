@@ -6,14 +6,7 @@ accordionHeaders.classList.toggle("active");
     })
 });
 
-window.addEventListener('scroll', () =>
-{
-    var nav = document.querySelector("#navigation");
-
-   nav.css("transform", "translateY(50%)");
-
-
+const stickyDiv = document.querySelector(".sticky");
+window.addEventListener("scroll", function() {
+  stickyDiv.style.top = window.pageYOffset + "px";
 });
-
-
-

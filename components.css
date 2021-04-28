@@ -1,13 +1,29 @@
+
+/* ----------- GRID SETUP ------------- */
+#container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-rows: auto 1fr;
+  
+}
+#header {
+  grid-area: 1 / 1 /  1  / 3;
+}
+#wrapper{
+  grid-area: 2 / 1 /  2 /  2;
+}
+#footer {
+  grid-area: 3 / 1 /  3 /  3;
+}
+
+#sidebar {
+  grid-area: 2 / 2 /  2 /  3;
+}
+
+/* ----------- PAGE STYLING: INTERACTIVE IMAGE -------------- */
 #interactive {
   text-align: center;
-}
-#interactive img {
-  width:100%;
-  height:auto;
-  border-radius: 8px;
-  cursor: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/turtle_1f422.png"), auto;
-  height: 70vh;
-  padding-bottom: 4rem;
+  width:90%;
 }
 
 #interactive img {
@@ -16,10 +32,10 @@
   object-fit: cover;
   border-radius: 0 0 8px 8px;
   cursor: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/turtle_1f422.png"),
-    auto;
 }
 
 /* ----------- PAGE STYLING: POTENTIAL MERGE ERROR -------------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +64,6 @@ section {
 }
 #header {
   letter-spacing: 0.05rem;
- 
 }
 
 #intro {
@@ -81,6 +96,10 @@ line-height: 1.5rem;
 .navbar-nav {
   display: none;
 }
+
+.sticky {
+  position: relative;  }
+
 /* ----------- ACCORDION -------- */
 .accordion {
   width: 90%;
@@ -208,25 +227,3 @@ iframe {
 #videos {
   text-align: center;
 }
-
-/* ----------- GRID SETUP ------------- */
-#container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-auto-rows: auto 1fr;
-  
-}
-#header {
-  grid-area: 1 / 1 /  1  / 3;
-}
-#wrapper{
-  grid-area: 2 / 1 /  2 /  2;
-}
-#footer {
-  grid-area: 3 / 1 /  3 /  3;
-}
-
-#sidebar {
-  grid-area: 2 / 2 /  2 /  3;
-}
-
