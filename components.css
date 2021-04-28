@@ -32,7 +32,7 @@
   max-height: 100%;
   object-fit: cover;
   border-radius: 0 0 8px 8px;
-  cursor: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/turtle_1f422.png"),
+  cursor: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/turtle_1f422.png"), auto;
 }
 
 /* ----------- PAGE STYLING: POTENTIAL MERGE ERROR -------------- */
